@@ -21,11 +21,11 @@ Build an app that lets people express their creativity in a visual format. You c
 ## The Developers
 
 ### Jon Ver Cabral Dela Cruz
-- WEBSITE Vhttps://jvdelacruz.com/
-- LINKEDIN  https://www.linkedin.com/in/jonvercabraldelacruz/
-- GUTHUB https://github.com/nicknamejvhttps://github.com/nicknamejv
+- WEBSITE: https://jvdelacruz.com/
+- LINKEDIN: https://www.linkedin.com/in/jonvercabraldelacruz/
+- GUTHUB: https://github.com/nicknamejvhttps://github.com/nicknamejv
 
 ### Gerald Tiamzon 
-- WEBSITE https://geraldtiamzon.com/
-- LINKEDIN https://www.linkedin.com/in/gerald-tiamzon/
-- GITHUB https://github.com/gtiamzon
+- WEBSITE: https://geraldtiamzon.com/
+- LINKEDIN: https://www.linkedin.com/in/gerald-tiamzon/
+- GITHUB: https://github.com/gtiamzon
