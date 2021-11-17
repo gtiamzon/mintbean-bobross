@@ -1,21 +1,27 @@
-![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
+### MintBean Hackathon 11/16/21 - 11/23/21 "Bob Ross"
+https://mintbean-bobross.vercel.app/
 
-# React Example
+## Prompt
+Build an app that lets people express their creativity in a visual format. You can build ANY application you'd like. Whether it's a blank canvas that you can paint on, a photo-editing app, a shared whiteboard.
+- As a user, I can click areas of the screen with my mouse to fill them with a color, texture, or pattern.
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+## Wireframes
+-Landing page
+![WIREFRAME](https://i.imgur.com/ydd1I05.png)
+![WIREFRAME](https://i.imgur.com/CyeD5PF.png)
+## Technologies Utilized
+- React
+- Semantic UI
+- HTML
+- CSS
+- JavaScript
+## The Developers
+- Jon Ver Cabral Dela Cruz
+https://jvdelacruz.com/
+https://www.linkedin.com/in/jonvercabraldelacruz/
+https://github.com/nicknamejvhttps://github.com/nicknamejv
 
-## Deploy Your Own
-
-Deploy your own React project, along with Serverless Functions, with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app-functions&template=create-react-app)
-
-_Live Example: https://create-react-app.now-examples.now.sh/_
-
-### How We Created This Example
-
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
-
-```shell
-$ npx create-react-app my-app
-```
+- Gerald Tiamzon 
+https://geraldtiamzon.com/
+https://www.linkedin.com/in/gerald-tiamzon/
+https://github.com/gtiamzon
