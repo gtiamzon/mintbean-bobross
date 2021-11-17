@@ -2,9 +2,17 @@ import './main.css';
 
 const Main = () => {
     return (
-        <h1>
-            MAIN PAGE
-        </h1>
+        <div>
+            <h1>
+                MAIN PAGE
+            </h1>
+
+            <h3>
+                <a href="/">
+                    HOME PAGE
+                </a>
+            </h3>
+        </div>
     )
 }
 
