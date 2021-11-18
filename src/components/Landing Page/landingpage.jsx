@@ -1,7 +1,7 @@
 import React from "react";
 import "./landingpage.css";
 // import image1 from '../../assets/Bobross.png'
-import { Icon, Menu } from "semantic-ui-react";
+import { Icon } from "semantic-ui-react";
 
 const LandingPage = () => {
     return (
@@ -77,6 +77,7 @@ const LandingPage = () => {
                                 href="https://jvdelacruz.com/"
                                 to="/path"
                                 target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <Icon name="address card" size="big" className="card-icon" />
                             </a>
@@ -84,6 +85,7 @@ const LandingPage = () => {
                                 href="https://www.linkedin.com/in/jonvercabraldelacruz/"
                                 to="/path"
                                 target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <Icon name="linkedin icon" size="big" className="card-icon" />
                             </a>
@@ -91,6 +93,7 @@ const LandingPage = () => {
                                 href="https://github.com/nicknamejv"
                                 to="/path"
                                 target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <Icon name="github" size="big" className="card-icon" />
                             </a>
@@ -120,6 +123,7 @@ const LandingPage = () => {
                                 href="https://geraldtiamzon.com/"
                                 to="/path"
                                 target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <Icon name="address card" size="big" className="card-icon" />
                             </a>
@@ -127,6 +131,7 @@ const LandingPage = () => {
                                 href="https://www.linkedin.com/in/gerald-tiamzon/"
                                 to="/path"
                                 target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <Icon name="linkedin icon" size="big" className="card-icon" />
                             </a>
@@ -134,6 +139,7 @@ const LandingPage = () => {
                                 href="https://github.com/gtiamzon"
                                 to="/path"
                                 target="_blank"
+                                rel="noopener noreferrer"
                             >
                                 <Icon name="github" size="big" className="card-icon" />
                             </a>
