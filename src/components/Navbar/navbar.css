@@ -1,0 +1,22 @@
+.right.menu {
+    font-size: 18px;
+}
+
+.right.menu a:hover {
+    transition: 0.3s;
+}
+
+.right.menu a:hover {
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.header.item {
+    font-size: 20px;
+}
+
+.ui.tabular.menu {
+    height: 65px;
+    border-bottom: 2px solid black;
+    font-family: 'Indie Flower', monospace, sans-serif;
+}
