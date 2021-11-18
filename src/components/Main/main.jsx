@@ -3,16 +3,10 @@ import './main.css';
 
 const Main = () => {
     return (
-        <div>
+        <div className="main">
             <h1>
                 MAIN PAGE
             </h1>
-
-            <h3>
-                <a href="/">
-                    HOME PAGE
-                </a>
-            </h3>
         </div>
     )
 }
