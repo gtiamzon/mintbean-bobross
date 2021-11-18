@@ -8,8 +8,10 @@ const Navbar = () => {
             style={{ backgroundColor: "hsla(74, 32%, 76%, 1)" }}
         >
             <div className="header item">
-                <i aria-hidden="true" class="paint brush icon"></i>
-                The Bob Ross
+                <h2 className="ui header" id="navbar-header">
+                    <img src="https://yt3.ggpht.com/ytc/AKedOLSRSl8xsTNuQU_f6sg3bHI19gZYUSqLu2I78S90MQ=s900-c-k-c0x00ffffff-no-rj" className="ui huge circular image"/>
+                    The Bob Ross
+                </h2>
             </div>
             <div className="right menu">
                 <a className="item" href="/">
