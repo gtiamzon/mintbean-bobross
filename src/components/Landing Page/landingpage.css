@@ -37,6 +37,7 @@
 #card-description {
     font-size: 18px;
     color: black;
+    line-height: 1.5;
 }
 
 .ui.card {
@@ -54,6 +55,7 @@
 
 .ui.text.container p {
     font-size: 20px;
+    line-height: 1.5;
 }
 
 #app-context, #app-context h2 {
