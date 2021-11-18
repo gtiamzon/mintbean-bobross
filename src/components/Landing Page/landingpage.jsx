@@ -9,7 +9,7 @@ const LandingPage = () => {
 
             <div class="ui card">
                 <div class="image">
-                    <img src={ image1 } />
+                    <img src={ image1 } alt="bobross"/>
                 </div>
                 <div class="content">
                     <div class="header">Jon Ver</div>
@@ -29,7 +29,7 @@ const LandingPage = () => {
 
             <div class="ui card">
                 <div class="image">
-                    <img src={ image1 } />
+                    <img src={ image1 } alt="bobross"/>
                 </div>
                 <div class="content">
                     <div class="header">Gerald</div>
