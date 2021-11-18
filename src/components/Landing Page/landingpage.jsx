@@ -9,6 +9,7 @@ const LandingPage = () => {
             </h1>
 
             <h3>
+
                 <a href="/thecanvas">
                     The Canvas
                 </a>
