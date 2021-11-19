@@ -2,6 +2,7 @@ import React from "react";
 import "./landingpage.css";
 // import image1 from '../../assets/Bobross.png'
 import { Icon } from "semantic-ui-react";
+import ColorPalette from "../ColorPalette/colorpalette";
 
 const LandingPage = () => {
     return (
