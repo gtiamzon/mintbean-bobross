@@ -1,6 +1,5 @@
 .landing-page {
     background-image: url(../../assets/natural_paper.png);
-    height: 100vh;
     margin-top: 30px;
 }
 
@@ -43,6 +42,7 @@
 .ui.card {
     border: 2px solid black;
     width: 600px;
+    height: 1120px;
 }
 
 .ui.header {
