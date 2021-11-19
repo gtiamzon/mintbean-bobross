@@ -23,6 +23,6 @@ html {
 body {
     font-family: 'Indie Flower', monospace, sans-serif;
     background-image: url(./assets/natural_paper.png);
-    overflow: hidden;
-    height: 100%;
+    /* overflow: hidden;
+    height: 100%; */
 }

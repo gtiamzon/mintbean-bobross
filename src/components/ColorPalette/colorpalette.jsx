@@ -1,18 +1,29 @@
 import React from "react";
+import "../ColorPalette/colorpalette.css";
 
 export default function ColorPalette(props) {
-  const colors = ['white', 'black', 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+  const colors = [
+    ""
+  ];
 
-  return(
+  return (
     <div className="color-palette">
-    {colors.map(color => { 
-        const activeClass = props.currentColor === color ? "color-swatch-active" : "";
+      {colors.map((color) => {
+        const activeClass =
+          props.currentColor === color ? `color-picker-active` : "";
         return (
-            <div onClick={() => {props.changeColor(color)}}>
-                <div className={`color-swatch ${activeClass}`}  style={{backgroundColor: color}}></div>
-            </div>
-        )
-    })}
-</div>
-  )
+          <div
+            onClick={() => {
+              props.changeColor(color);
+            }}
+          >
+            <div
+              className={`color-picker ${activeClass}`}
+              style={{ backgroundColor: color }}
+            ></div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
