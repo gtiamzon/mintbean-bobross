@@ -23,4 +23,6 @@ body {
     background-image: url(./assets/natural_paper.png);
 }
 
-
+.app {
+    overflow: hidden;
+}
