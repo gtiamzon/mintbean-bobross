@@ -7,7 +7,7 @@ const LandingPage = () => {
     return (
         <div className="landing-page">
             <div className="ui padded three column grid">
-                <div className="wnine wide column">
+                <div className="nine wide column">
                     <div className="ui text container" id="app-context">
                         <h2 className="ui header">
                             Mint Bean Hackathon 2021 - The Bob Ross
