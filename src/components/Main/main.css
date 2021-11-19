@@ -1,28 +1,15 @@
 .cornerBob {
     position: absolute;
     right: 0px;
-    bottom: -10vh; 
+    bottom: -40vh; 
 }
+
 #mainCanvas {
     height: 100vh;
     overflow: hidden !important;
 }
 
 #canvasArea {
-    padding-left: 30vh;
-}
-
-.color-swatch {
-    height: 70px;
-    width: 70px;
-    border-radius: 7px;
-    margin: 9px;
-    cursor: pointer;
-    border: 4px solid black;
-    
-}
-
-.color-swatch-active {
-    box-shadow: inset 0 0 15px #000000;
-    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
 }
