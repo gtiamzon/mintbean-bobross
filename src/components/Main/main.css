@@ -3,7 +3,7 @@
     right: 0px;
     bottom: -10vh; 
 }
-.main {
+#mainCanvas {
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden !important;
 }
