@@ -1,0 +1,15 @@
+.cornerBob {
+    position: absolute;
+    right: 0px;
+    bottom: -40vh; 
+}
+
+#mainCanvas {
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+#canvasArea {
+    display: flex;
+    justify-content: center;
+}

@@ -1,7 +1,28 @@
+/* https://coolors.co/ccd5ae-e9edc9-fefae0-faedcd-d4a373 */
+
+:root {
+    /* CSS HSL */
+    --pale-spring-bud: hsla(74, 32%, 76%, 1);
+    --light-goldenrod-yellow: hsla(67, 50%, 86%, 1);
+    --cornsilk: hsla(52, 94%, 94%, 1);
+    --papaya-whip: hsla(43, 82%, 89%, 1);
+    --fawn: hsla(30, 53%, 64%, 1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image: url(./assets/kisspng-bob-ross-more-of-the-joy-of-painting-television-sh-old-man-material-5adb23ba867643.1949504215243109705508.png);
-    background-size: cover;
+    cursor: url(./assets/cursor.png), auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    font-family: 'Indie Flower', monospace, sans-serif;
+    background-image: url(./assets/natural_paper.png);
+    /* overflow: hidden;
+    height: 100%; */
 }

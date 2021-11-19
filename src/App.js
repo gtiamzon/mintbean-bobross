@@ -1,13 +1,14 @@
 import './App.css';
+import React from 'react';
+import AppRoutes from './config/routes';
+import Navbar from './components/Navbar/navbar';
 
-import Main from './components/Main/main';
-import LandingPage from './components/Landing Page/landingpage';
 
 function App() {
   return (
     <div className="app">
-      <Main />
-      <LandingPage />
+      <Navbar />
+      <AppRoutes />
     </div>
   );
 }
