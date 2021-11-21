@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./main.css";
-import Bobby from "../../assets/Bobross.png";
-import Robot from "../../assets/robot-line";
 import ColorPalette from "../ColorPalette/colorpalette";
+import Bobby from "../../assets/Bobross.png";
+import {Shorty, Flower, Hippo, Robot, Snake} from "../../assets/svg/svgIndex"
 
 const Main = () => {
     const initialState = {
@@ -29,6 +29,10 @@ const Main = () => {
                 <div class="eleven wide column">
                     <div id="canvasArea">
                         <Robot fillColors={fillColors} onFill={onFillColor} />
+                        <Shorty fillColors={fillColors} onFill={onFillColor} />
+                        <Hippo fillColors={fillColors} onFill={onFillColor} />
+                        <Flower fillColors={fillColors} onFill={onFillColor} />
+                        <Snake fillColors={fillColors} onFill={onFillColor} />
                     </div>
                 </div>
                 <div class="five wide column" id="colorpalette-column">
