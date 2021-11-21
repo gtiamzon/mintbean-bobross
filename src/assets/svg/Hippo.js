@@ -1,5 +1,4 @@
-import React from "react"
-
+import React from "react";
 
 export default class Hippo extends React.Component {
   render() {
@@ -14,14 +13,8 @@ export default class Hippo extends React.Component {
         x="0px"
         y="0px"
       >
-        <g
-          id="layer1"
-          transform="translate(-13.044 -356.02)"
-        >
-          <g
-            id="g13162"
-            transform="matrix(1.5359 0 0 1.5359 -5.9665 278.38)"
-          >
+        <g id="layer1" transform="translate(-13.044 -356.02)">
+          <g id="g13162" transform="matrix(1.5359 0 0 1.5359 -5.9665 278.38)">
             <path
               id="path6878"
               onClick={() => this.props.onFill(0)}
@@ -171,6 +164,6 @@ export default class Hippo extends React.Component {
           </g>
         </g>
       </svg>
-    )
+    );
   }
 }
