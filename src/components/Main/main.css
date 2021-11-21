@@ -1,7 +1,9 @@
 .cornerBob {
     position: absolute;
     right: 0px;
-    bottom: -40vh; 
+    bottom: -43vh;
+    height: 600px;
+    width: auto;
 }
 
 #mainCanvas {
@@ -12,4 +14,25 @@
 #canvasArea {
     display: flex;
     justify-content: center;
+}
+
+#colorpalette-title {
+    text-align: center;
+    font-family: 'Indie Flower', monospace, sans-serif;
+    font-size: 50px;
+}
+
+#colorpalette-column {
+    margin-top: 15px;
+}
+
+#resetbtn {
+    height: 50px;
+    width: 50px;
+}
+
+.colorpalette-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50px;
 }
