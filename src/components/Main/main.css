@@ -1,7 +1,7 @@
 .cornerBob {
     position: absolute;
     right: 0px;
-    bottom: -43vh;
+    bottom: -15vh;
     height: 600px;
     width: auto;
 }
@@ -13,7 +13,10 @@
 
 #canvasArea {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 25px;
 }
 
 #colorpalette-title {
@@ -24,15 +27,21 @@
 
 #colorpalette-column {
     margin-top: 15px;
+    height: 90vh;
 }
 
 #resetbtn {
     height: 50px;
     width: 50px;
+    border: 2px solid black;
 }
 
 .colorpalette-footer {
     display: flex;
     flex-direction: row-reverse;
     margin-right: 50px;
+}
+
+#selector {
+
 }

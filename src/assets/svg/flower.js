@@ -6,18 +6,18 @@ export default class Flower extends React.Component {
          <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 8.9065084 12.459385"
-            id="svg8736"
+            id="svg87369"
             version="1.1"
             x="0px"
             y="0px"
-            width="750px"
-            height="750px"
+            width="auto"
+            height="70vh"
          >
             <g id="layer1" transform="translate(-101.38585,-142.61542)">
                <g id="g9308">
                   <path
                      id="path3806"
-                     onClick={() => this.props.onFill(0)}
+                     onClick={() => this.props.onFillColor(0)}
                      fill={this.props.fillColors[0]}
                      fillRule="evenodd"
                      stroke="#000000"
@@ -26,7 +26,7 @@ export default class Flower extends React.Component {
                   />
                   <path
                      id="svg_1"
-                     onClick={() => this.props.onFill(1)}
+                     onClick={() => this.props.onFillColor(1)}
                      fill={this.props.fillColors[1]}
                      fillRule="evenodd"
                      stroke="#000000"
@@ -35,7 +35,7 @@ export default class Flower extends React.Component {
                   />
                   <path
                      id="svg_2"
-                     onClick={() => this.props.onFill(2)}
+                     onClick={() => this.props.onFillColor(2)}
                      fill={this.props.fillColors[2]}
                      fillRule="evenodd"
                      stroke="#000000"
@@ -44,7 +44,7 @@ export default class Flower extends React.Component {
                   />
                   <path
                      id="svg_3"
-                     onClick={() => this.props.onFill(3)}
+                     onClick={() => this.props.onFillColor(3)}
                      fill={this.props.fillColors[3]}
                      fillRule="evenodd"
                      stroke="#000000"
@@ -53,7 +53,7 @@ export default class Flower extends React.Component {
                   />
                   <path
                      id="svg_4"
-                     onClick={() => this.props.onFill(4)}
+                     onClick={() => this.props.onFillColor(4)}
                      fill={this.props.fillColors[4]}
                      fillRule="evenodd"
                      stroke="#000000"

@@ -2,17 +2,13 @@ import React, { useState } from "react";
 import "./main.css";
 import ColorPalette from "../ColorPalette/colorpalette";
 import Bobby from "../../assets/Bobross.png";
-import { Shorty, Flower, Hippo, Robot, Snake } from "../../assets/svg/svgIndex";
-import Select from 'react-select';
+import Selector from "../Selector/selector";
 
 const Main = () => {
-    const initialState = {
-        fill: "white",
-    };
-
     const [fillColors, setFillColors] = useState(
-        Array(999).fill(initialState.fill)
+        Array(999).fill("white")
     );
+
     const [currentColor, setCurrentColor] = useState("white");
 
     const onFillColor = (i) => {
@@ -21,56 +17,37 @@ const Main = () => {
         setFillColors(newFillColors);
     };
 
-    const [selectedOption, setSelectedOption] = useState("");
-
     const resetCanvas = () => {
-        setFillColors(Array(999).fill(initialState.fill));
+        setFillColors(Array(999).fill("white"));
     };
 
-    const handleSelectChange = (e) => {
-        setSelectedOption(e.value);
+    const handleColorChange = (e) => {
+        setCurrentColor(e.target.value);
+        let currentColor = e.target.value;
+        console.log(e.target.value)
     }
-
-    const svgOptions = [
-        { 
-            key: "Robot", value: <Robot fillColors={fillColors} onFill={onFillColor} />, label: "Robot" 
-        },
-        { 
-            key: "Flower", value: <Flower fillColors={fillColors} onFill={onFillColor} />, label: "Flower"
-        },
-        { 
-            key: "Hippo", value: <Hippo fillColors={fillColors} onFill={onFillColor} />, label: "Hippo" 
-        },
-        { 
-            key: "Snake", value: <Snake fillColors={fillColors} onFill={onFillColor} />, label: "Snake" 
-        },
-        { 
-            key: "Shorty", value: <Shorty fillColors={fillColors} onFill={onFillColor} />, label: "Beach Short" 
-        },
-    ];
-
 
     return (
         <div className="main" id="mainCanvas">
-            <div class="ui three column grid">
-                <div class="eleven wide column">
-                        <Select options={svgOptions} onChange={handleSelectChange} />
+            <div className="ui three column grid">
+                <div className="eleven wide column">
                     <div id="canvasArea">
-                        {selectedOption}
+                        <Selector fillColors={fillColors} onFillColor={onFillColor} id="selector"/>
                     </div>
                 </div>
-                <div class="five wide column" id="colorpalette-column">
+                <div className="five wide column" id="colorpalette-column">
                     <div className="ui huge header" id="colorpalette-title">
                         COLOR PICKER
                     </div>
                     <ColorPalette
                         id="palette"
                         currentColor={currentColor}
-                        changeColor={setCurrentColor}
+                        setCurrentColor={setCurrentColor}
+                        handleColorChange={handleColorChange}
                     />
                     <div className="colorpalette-footer">
                         <button onClick={resetCanvas} id="resetbtn">
-                            <i aria-hidden="true" class="undo large icon"></i>
+                            <i aria-hidden="true" className="undo large icon"></i>
                         </button>
                     </div>
                     <img className="cornerBob" src={Bobby} alt="bobross" />
