@@ -6,7 +6,7 @@ export default class Flower extends React.Component {
          <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 8.9065084 12.459385"
-            id="svg8736"
+            id="svg87369"
             version="1.1"
             x="0px"
             y="0px"
