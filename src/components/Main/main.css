@@ -30,6 +30,13 @@
     height: 90vh;
 }
 
+@media only screen and (max-width : 1200px) {
+    #colorpalette-column {
+        margin-top: 15px;
+        height: 50vh;
+    }
+}
+
 #resetbtn {
     height: 50px;
     width: 50px;
