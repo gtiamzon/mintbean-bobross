@@ -1,7 +1,7 @@
 import React from "react";
 import "../ColorPalette/colorpalette.css";
 
-export default function ColorPalette(props) {
+export default function ColorPalette({ currentColor, handleColorChange }) {
   const colors = [
     "red",
     "green",
@@ -44,18 +44,15 @@ export default function ColorPalette(props) {
     <div className="color-palette">
       {colors.map((color) => {
         const activeClass =
-          props.currentColor === color ? `color-picker-active` : "";
+          currentColor === color ? `color-picker-active` : "";
         return (
-          <div
-            onClick={() => {
-              props.changeColor(color);
-            }}
-          >
-            <div
-              className={`color-picker ${activeClass}`}
-              style={{ backgroundColor: color }}
-            ></div>
-          </div>
+          <button
+            onClick={handleColorChange}
+            value={color}
+            key={color}
+            className={`color-picker ${activeClass}`}
+            style={{ backgroundColor: color }}
+          ></button>
         );
       })}
     </div>
