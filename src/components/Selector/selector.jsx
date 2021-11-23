@@ -7,7 +7,7 @@ const Selector = ({ fillColors, onFillColor }) => {
 
     // this creates the default svg that is pushed onto the page
     const [selectedOption, setSelectedOption] = useState(
-        <Robot fillColors={fillColors} onFillColor={onFillColor} />
+        <Snake fillColors={fillColors} onFillColor={onFillColor} />
     );
 
     // this will check if "selectedOption" state changes
@@ -62,7 +62,7 @@ const Selector = ({ fillColors, onFillColor }) => {
             case "Snake":
                 return <Snake fillColors={fillColors} onFillColor={onFillColor} />
             default:
-                return <Robot fillColors={fillColors} onFillColor={onFillColor} />
+                return <Snake fillColors={fillColors} onFillColor={onFillColor} />
         }
     }
 
