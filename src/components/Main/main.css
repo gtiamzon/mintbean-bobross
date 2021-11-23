@@ -27,15 +27,22 @@
 
 #colorpalette-column {
     margin-top: 15px;
-    height: 90vh;
+    height: 100vh;
 }
 
-@media only screen and (max-width : 1200px) {
+/* @media screen and (min-width: 1224px) {
     #colorpalette-column {
         margin-top: 15px;
-        height: 50vh;
+        height: 10vh;
     }
-}
+    .cornerBob {
+        position: absolute;
+        right: 0px;
+        bottom: -15vh;
+        height: 600px;
+        width: auto;
+    }
+} */
 
 #resetbtn {
     height: 50px;
