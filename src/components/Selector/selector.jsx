@@ -21,7 +21,7 @@ const Selector = ({ fillColors, onFillColor }) => {
     const svgOptions = [
         {
             key: "Robot",
-            value: <Robot />,
+            value: <Robot fillColors={fillColors} onFillColor={onFillColor} />,
             label: "Robot",
         },
         {
@@ -79,10 +79,16 @@ const Selector = ({ fillColors, onFillColor }) => {
 
     return (
         <>
-            <Select options={svgOptions} onChange={handleSelectChange} id="selector" />
+            {/* <Select options={svgOptions} onChange={handleSelectChange} id="selector" />
             <div className="svg-image">
                 {renderSvg()}
-            </div>
+            </div> */}
+            <Robot fillColors={fillColors} onFillColor={onFillColor} />
+            <Flower fillColors={fillColors} onFillColor={onFillColor} />
+            <Hippo fillColors={fillColors} onFillColor={onFillColor} />
+            <Shorty fillColors={fillColors} onFillColor={onFillColor} />
+            <Snake fillColors={fillColors} onFillColor={onFillColor} />
+            <Mandala fillColors={fillColors} onFillColor={onFillColor} />
         </>
     );
 };
