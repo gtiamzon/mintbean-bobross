@@ -21,42 +21,40 @@ const Selector = ({ fillColors, onFillColor }) => {
     const svgOptions = [
         {
             key: "Robot",
-            value: <Robot fillColors={fillColors} onFillColor={onFillColor} />,
+            value: <Robot />,
             label: "Robot",
         },
         {
             key: "Flower",
-            value: <Flower fillColors={fillColors} onFillColor={onFillColor} />,
+            value: <Flower />,
             label: "Flower",
         },
         {
             key: "Hippo",
-            value: <Hippo fillColors={fillColors} onFillColor={onFillColor} />,
+            value: <Hippo />,
             label: "Hippo",
         },
         {
             key: "Snake",
-            value: <Snake fillColors={fillColors} onFillColor={onFillColor} />,
+            value: <Snake />,
             label: "Snake",
         },
         {
             key: "Shorty",
-            value: <Shorty fillColors={fillColors} onFillColor={onFillColor} />,
+            value: <Shorty />,
             label: "Beach Short",
         },
         {
             key: "Mandala",
-            value: <Mandala fillColors={fillColors} onFillColor={onFillColor} />,
+            value: <Mandala />,
             label: "Mandala",
         }
     ];
 
     const handleSelectChange = (e) => {
-        setSelectedOption(e.value);
-        isSvgChosen.current = e.value.type.name;
+        setSelectedOption(e.key);
+        isSvgChosen.current = e.key;
     };
-
-    // const isSvgChosen = selectedOption;
 
     const renderSvg = () => {
         switch (isSvgChosen.current) {
