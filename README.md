@@ -6,7 +6,11 @@ Build an app that lets people express their creativity in a visual format. You c
 - As a user, I can click areas of the screen with my mouse to fill them with a color, texture, or pattern.
 
 ## Development
-- Development of this app goes here.
+- The Mintbean Hackathon prompt is to create an app that will fulfill the goal of letting the user click on areas of a pre-existing drawing and fill it with color. With this challenge, we sought out to create website built in React that would let the user choose an image they would like and color in that image based on the color palette provided to them.
+
+- The images provided are SVG's and the logic behind the coloring is that on-click of a certain within the SVG, it would auto-fill given the selected color from the color palette. The image selector dropdown utilizes a switch case to display the desired SVG on the screen. The color selector uses a .map function to show the Array of colors we provided and an active class to let the user color in the image with the current active color. Semantic UI was used as a framework. React was what used to to build the application.
+
+
 ## Wireframes
 - Landing Page
 ![WIREFRAME](https://i.imgur.com/ydd1I05.png)
