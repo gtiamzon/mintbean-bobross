@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Select from "react-select";
 import { Shorty, Flower, Hippo, Robot, Snake, Mandala } from "../../assets/svg/svgIndex";
 import './selector.css';
@@ -10,10 +10,13 @@ const Selector = ({ fillColors, onFillColor }) => {
         <Mandala fillColors={fillColors} onFillColor={onFillColor} />
     );
 
+    const isSvgChosen = useRef(<Mandala fillColors={fillColors} onFillColor={onFillColor} />);
+
     // this will check if "selectedOption" state changes
     useEffect(() => {
         console.log("Your option has changed.");
     }, [selectedOption]);
+
 
     const svgOptions = [
         {
@@ -50,12 +53,13 @@ const Selector = ({ fillColors, onFillColor }) => {
 
     const handleSelectChange = (e) => {
         setSelectedOption(e.value);
+        isSvgChosen.current = e.value.type.name;
     };
 
-    const isSvgChosen = selectedOption;
+    // const isSvgChosen = selectedOption;
 
     const renderSvg = () => {
-        switch (isSvgChosen.type.name) {
+        switch (isSvgChosen.current) {
             case "Robot":
                 return <Robot fillColors={fillColors} onFillColor={onFillColor} />
             case "Flower":
