@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Select from "react-select";
-import { Shorty, Flower, Hippo, Robot, Snake } from "../../assets/svg/svgIndex";
+import { Shorty, Flower, Hippo, Robot, Snake, Mandala } from "../../assets/svg/svgIndex";
 import './selector.css';
 
 const Selector = ({ fillColors, onFillColor }) => {
@@ -41,6 +41,11 @@ const Selector = ({ fillColors, onFillColor }) => {
             value: <Shorty fillColors={fillColors} onFillColor={onFillColor} />,
             label: "Beach Short",
         },
+        {
+            key: "Mandala",
+            value: <Mandala fillColors={fillColors} onFillColor={onFillColor} />,
+            label: "Mandala",
+        }
     ];
 
     const handleSelectChange = (e) => {
@@ -62,6 +67,8 @@ const Selector = ({ fillColors, onFillColor }) => {
                 return <Shorty fillColors={fillColors} onFillColor={onFillColor} />
             case "Snake":
                 return <Snake fillColors={fillColors} onFillColor={onFillColor} />
+            case "Mandala":
+                return <Mandala fillColors={fillColors} onFillColor={onFillColor} />
         }
     }
 
