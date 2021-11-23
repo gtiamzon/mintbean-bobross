@@ -45,7 +45,6 @@ const Selector = ({ fillColors, onFillColor }) => {
 
     const handleSelectChange = (e) => {
         setSelectedOption(e.value);
-        let selectedOption = e.key;
     };
 
     const isSvgChosen = selectedOption;
@@ -62,6 +61,8 @@ const Selector = ({ fillColors, onFillColor }) => {
                 return <Shorty fillColors={fillColors} onFillColor={onFillColor} />
             case "Snake":
                 return <Snake fillColors={fillColors} onFillColor={onFillColor} />
+            default:
+                return <Robot fillColors={fillColors} onFillColor={onFillColor} />
         }
     }
 
