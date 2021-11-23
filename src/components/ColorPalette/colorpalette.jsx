@@ -1,48 +1,63 @@
 import React from "react";
 import "../ColorPalette/colorpalette.css";
 
-export default function ColorPalette(props) {
+export default function ColorPalette({ currentColor, handleColorChange }) {
   const colors = [
-    "#C0392B",
-    "#E74C3C",
-    "#9B59B6",
-    "#8E44AD",
-    "#2980B9",
-    "#3498DB",
-    "#1ABC9C",
-    "#16A085",
-    "#27AE60",
-    "#2ECC71",
-    "#F1C40F",
-    "#F39C12",
-    "#E67E22",
-    "#D35400",
-    "#ECF0F1",
-    "#BDC3C7",
-    "#95A5A6",
-    "#7F8C8D",
-    "#34495E",
-    "#2C3E50",
-    "#000000"
-
+    "white",
+    "#f6bdc0",
+    "#FFaf42",
+    "#fff9c4",
+    "#68bb59",
+    "#03a9f4",
+    "#6600ff",
+    "#bf00ff",
+    "#dddddd",
+    "#F6BDC0",
+    "#FF8303",
+    "#fff59d",
+    "#76ba1b",
+    "#0287c3",
+    "#5200cc",
+    "#9900cc",
+    "#bcbcbc",
+    "#F1959b",
+    "#Fe6e00",
+    "#fff176",
+    "#4c9a2a",
+    "#026592",
+    "#3d0099",
+    "#730099",
+    "#383838",
+    "#DC1c13",
+    "#fd5602",
+    "#ffee58",
+    "green",
+    "#014462",
+    "#290066",
+    "#4c0066",
+    "black",
+    "red",
+    "orange",
+    "#ffeb3b",
+    "#1e5631",
+    "#012231",
+    "#140033",
+    "#260033"
   ];
 
   return (
     <div className="color-palette">
       {colors.map((color) => {
         const activeClass =
-          props.currentColor === color ? `color-picker-active` : "";
+          currentColor === color ? `color-picker-active` : "";
         return (
-          <div
-            onClick={() => {
-              props.changeColor(color);
-            }}
-          >
-            <div
-              className={`color-picker ${activeClass}`}
-              style={{ backgroundColor: color }}
-            ></div>
-          </div>
+          <button
+            onClick={handleColorChange}
+            value={color}
+            key={color}
+            className={`color-picker ${activeClass}`}
+            style={{ backgroundColor: color }}
+          ></button>
         );
       })}
     </div>

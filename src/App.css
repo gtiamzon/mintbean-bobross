@@ -16,13 +16,11 @@ html {
     margin: 0;
     padding: 0;
     cursor: url(./assets/cursor.png), auto;
-    overflow: hidden;
     height: 100%;
 }
 
 body {
     font-family: 'Indie Flower', monospace, sans-serif;
     background-image: url(./assets/natural_paper.png);
-    /* overflow: hidden;
-    height: 100%; */
+    height: 100%;
 }

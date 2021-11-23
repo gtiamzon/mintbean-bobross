@@ -1,7 +1,9 @@
 .cornerBob {
     position: absolute;
     right: 0px;
-    bottom: -40vh; 
+    bottom: -15vh;
+    height: 600px;
+    width: auto;
 }
 
 #mainCanvas {
@@ -11,5 +13,45 @@
 
 #canvasArea {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+#colorpalette-title {
+    text-align: center;
+    font-family: 'Indie Flower', monospace, sans-serif;
+    font-size: 50px;
+}
+
+#colorpalette-column {
+    margin-top: 15px;
+    height: 100vh;
+}
+
+#resetbtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+#resetbtn:hover {
+    transform: scale(1.3);
+}
+
+#resetbtn-popup {
+    font-size: 18px;
+}
+
+.colorpalette-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+}
+
+#popup-bob {
+    font-size: 30px;
 }
