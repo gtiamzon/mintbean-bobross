@@ -7,9 +7,13 @@
 }
 
 .color-picker-active {
+    transition: 0.3s;
+}
+
+.color-picker-active {
     transform: scale(1.2);
     border: 3px dashed black;
-    box-shadow: 5px 5px 5px 2px;
+    box-shadow: 5px 5px 5px 1px;
 }
 
 .color-palette {

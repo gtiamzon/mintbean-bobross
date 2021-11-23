@@ -30,20 +30,6 @@
     height: 100vh;
 }
 
-/* @media screen and (min-width: 1224px) {
-    #colorpalette-column {
-        margin-top: 15px;
-        height: 10vh;
-    }
-    .cornerBob {
-        position: absolute;
-        right: 0px;
-        bottom: -15vh;
-        height: 600px;
-        width: auto;
-    }
-} */
-
 #resetbtn {
     height: 50px;
     width: 50px;
