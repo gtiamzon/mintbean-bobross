@@ -7,7 +7,7 @@ yarn - to download all the dependencies
 ```
 
 ```
-yarn start - run build
+yarn dev - run build
 ```
 
 ## Prompt
