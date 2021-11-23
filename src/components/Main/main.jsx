@@ -37,24 +37,21 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="five wide column" id="colorpalette-column">
-                    <div className="ui huge header" id="colorpalette-title">
-                        COLOR PICKER
-                    </div>
-                    <ColorPalette
-                        id="palette"
-                        currentColor={currentColor}
-                        setCurrentColor={setCurrentColor}
-                        handleColorChange={handleColorChange}
-                    />
-                    <div className="colorpalette-footer">
-                        <Popup
-                            trigger={<button onClick={resetCanvas} id="resetbtn">
+                    <div id="wholePalette">
+                        <div className="ui huge header" id="colorpalette-title">
+                            COLOR PICKER
+                        </div>
+                        <ColorPalette
+                            id="palette"
+                            currentColor={currentColor}
+                            setCurrentColor={setCurrentColor}
+                            handleColorChange={handleColorChange}
+                            />
+                        <div className="colorpalette-footer">
+                            <button onClick={resetCanvas} id="resetbtn">
                                 <i aria-hidden="true" className="undo large icon"></i>
-                            </button>}
-                            content='Reset the canvas!'
-                            position='left center'
-                            id="resetbtn-popup"
-                        />
+                            </button>
+                        </div>
                     </div>
                     <Popup
                         trigger={<img className="cornerBob" src={Bobby} alt="bobross" />}

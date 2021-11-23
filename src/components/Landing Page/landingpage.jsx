@@ -13,37 +13,12 @@ const LandingPage = () => {
                         <h2 className="ui header">
                             Mint Bean Hackathon 2021 - The Bob Ross
                         </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa strong. Cum sociis
-                            natoque penatibus et magnis dis parturient montes, nascetur
-                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                            pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-                            justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-                            justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-                            dictum felis eu pede link mollis pretium. Integer tincidunt.
-                            Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                            eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-                            vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-                            viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
-                            metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-                            ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        <p id="intro">
+                            The Mintbean Hackathon prompt is to create an app that will fulfill the goal of letting the user click on areas of a pre-existing drawing and fill it with color. With this challenge, we sought out to create website built in React that would let the user choose an image they would like and color in that image based on the color palette provided to them.
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa strong. Cum sociis
-                            natoque penatibus et magnis dis parturient montes, nascetur
-                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                            pretium quis, sem. Nulla consequat massa quis enim. Donec pede
-                            justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-                            justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-                            dictum felis eu pede link mollis pretium. Integer tincidunt.
-                            Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                            eleifend tellus. Aenean leo ligula, porttitor eu, consequat
-                            vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-                            viverra quis, feugiat a, tellus. Phasellus viverra nulla ut
-                            metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-                            ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        <p id="introdos">
+                            The images provided are SVG's and the logic behind the coloring is that on-click of a certain within the SVG, it would auto-fill given the selected color from the color palette. The image selector dropdown utilizes a switch case to display the desired SVG on the screen. The color selector uses a .map function to show the Array of colors we provided and an active class to let the user color in the image with the current active color.  Semantic UI was used as a framework. React was what used to to build the application.
+
                         </p>
                     </div>
                 </div>

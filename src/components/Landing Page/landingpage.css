@@ -3,6 +3,14 @@
     margin-top: 30px;
 }
 
+#intro {
+    font-size: 25px;
+}
+
+#introdos {
+    font-size: 25px;
+}
+
 #card-footer {
     text-align: center;
 }
@@ -34,15 +42,15 @@
 }
 
 #card-description {
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     line-height: 1.5;
 }
 
 .ui.card {
     border: 2px solid black;
-    width: 600px;
-    height: 1120px;
+    width: auto;
+    height: 950px;
 }
 
 .ui.header {
@@ -50,7 +58,8 @@
 }
 
 .ui.text.container h2 {
-    font-size: 35px;
+    font-size: 37px;
+    text-decoration: underline;
 }
 
 .ui.text.container p {
