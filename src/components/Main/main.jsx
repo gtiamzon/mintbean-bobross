@@ -9,7 +9,7 @@ const Main = () => {
 
     // this creates the default fill colors of the svg paths
     const [fillColors, setFillColors] = useState(
-        Array(999).fill("white")
+        Array(200).fill("white")
     );
 
     // this is sets the default color for the color picker palette
@@ -24,7 +24,7 @@ const Main = () => {
 
     // a reset button that will convert all paths back to white
     const resetCanvas = () => {
-        setFillColors(Array(999).fill("white"));
+        setFillColors(Array(200).fill("white"));
     };
 
     const handleColorChange = (e) => {
