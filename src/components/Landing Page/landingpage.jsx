@@ -14,11 +14,34 @@ const LandingPage = () => {
                             Mint Bean Hackathon 2021 - The Bob Ross
                         </h2>
                         <p id="intro">
-                            The Mintbean Hackathon prompt is to create an app that will fulfill the goal of letting the user click on areas of a pre-existing drawing and fill it with color. With this challenge, we sought out to create website built in React that would let the user choose an image they would like and color in that image based on the color palette provided to them.
+                            The Mintbean Hackathon prompt is to create an app that will
+                            fulfill the goal of letting the user click on areas of a
+                            pre-existing drawing and fill it with color. With this challenge,
+                            we sought out to create website built in React that would let the
+                            user choose an image they would like and color in that image based
+                            on the color palette provided to them.
                         </p>
                         <p id="introdos">
-                            The images provided are SVG's and the logic behind the coloring is that on-click of a certain within the SVG, it would auto-fill given the selected color from the color palette. The image selector dropdown utilizes a switch case to display the desired SVG on the screen. The color selector uses a .map function to show the Array of colors we provided and an active class to let the user color in the image with the current active color.  Semantic UI was used as a framework. React was what used to to build the application.
-
+                            The images provided are SVG's and the logic behind the coloring is
+                            that on-click of a certain within the SVG, it would auto-fill
+                            given the selected color from the color palette. The image
+                            selector dropdown utilizes a switch case to display the desired
+                            SVG on the screen. The color selector uses a .map function to show
+                            the Array of colors we provided and an active class to let the
+                            user color in the image with the current active color. Semantic UI
+                            was used as a framework. React was what used to to build the
+                            application.
+                            
+                            <h1 id="tech-list-title">
+                                Technologies Used:
+                            </h1>
+                            <ul id="tech-list">
+                                <li>Reactjs</li>
+                                <li>Semantic UI React</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
                         </p>
                     </div>
                 </div>
@@ -32,7 +55,9 @@ const LandingPage = () => {
                             />
                         </div>
                         <div className="content">
-                            <div className="header" id="card-title">Jon Ver</div>
+                            <div className="header" id="card-title">
+                                Jon Ver
+                            </div>
                             <div className="meta">
                                 <span className="date">Software Developer</span>
                             </div>
@@ -42,10 +67,10 @@ const LandingPage = () => {
                                 have gained a strong passion to learning and evovling all
                                 aspects of a well-rounded Software Developer. When I'm not
                                 coding you'll find me somewhere around the world. I love
-                                traveling and visiting national parks and so far I have
-                                visited all the major parks in the western United States. I
-                                also have a long list of hobbies that include photography,
-                                videography, and the occasional video game sessions. "
+                                traveling and visiting national parks and so far I have visited
+                                all the major parks in the western United States. I also have a
+                                long list of hobbies that include photography, videography, and
+                                the occasional video game sessions. "
                             </div>
                         </div>
                         <div className="extra content" id="card-footer">
@@ -56,9 +81,15 @@ const LandingPage = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Popup
-                                    trigger={<Icon name="address card" size="big" className="card-icon" />}
-                                    content='My Portfolio'
-                                    position='top center'
+                                    trigger={
+                                        <Icon
+                                            name="address card"
+                                            size="big"
+                                            className="card-icon"
+                                        />
+                                    }
+                                    content="My Portfolio"
+                                    position="top center"
                                     id="card-popup"
                                 />
                             </a>
@@ -69,9 +100,15 @@ const LandingPage = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Popup
-                                    trigger={<Icon name="linkedin icon" size="big" className="card-icon" />}
-                                    content='My Linkedin'
-                                    position='top center'
+                                    trigger={
+                                        <Icon
+                                            name="linkedin icon"
+                                            size="big"
+                                            className="card-icon"
+                                        />
+                                    }
+                                    content="My Linkedin"
+                                    position="top center"
                                     id="card-popup"
                                 />
                             </a>
@@ -82,9 +119,11 @@ const LandingPage = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Popup
-                                    trigger={<Icon name="github icon" size="big" className="card-icon" />}
-                                    content='My Github'
-                                    position='top center'
+                                    trigger={
+                                        <Icon name="github icon" size="big" className="card-icon" />
+                                    }
+                                    content="My Github"
+                                    position="top center"
                                     id="card-popup"
                                 />
                             </a>
@@ -101,14 +140,23 @@ const LandingPage = () => {
                             />
                         </div>
                         <div className="content">
-                            <div className="header" id="card-title">Gerald</div>
+                            <div className="header" id="card-title">
+                                Gerald
+                            </div>
                             <div className="meta">
                                 <span className="date">Software Developer</span>
                             </div>
                             <div className="description" id="card-description">
-                                " Former employee in the retail sector now a Full-Stack Software Engineer with skills in JavaScript, Python and React. I thrive in environments where I’m constantly learning and I work hard to improve myself wherever I am. With multiple years of communicating with both co-workers and customers I have a strong foundation in communication and collaboration.
-
-                                When I'm not writing code, you can find me doing something with my car. From performing maintenance to driving on race tracks, you can count me in. Other things I enjoy are food, traveling and playing video games. "
+                                " Former employee in the retail sector now a Full-Stack Software
+                                Engineer with skills in JavaScript, Python and React. I thrive
+                                in environments where I’m constantly learning and I work hard to
+                                improve myself wherever I am. With multiple years of
+                                communicating with both co-workers and customers I have a strong
+                                foundation in communication and collaboration. When I'm not
+                                writing code, you can find me doing something with my car. From
+                                performing maintenance to driving on race tracks, you can count
+                                me in. Other things I enjoy are food, traveling and playing
+                                video games. "
                             </div>
                         </div>
                         <div className="extra content" id="card-footer">
@@ -119,9 +167,15 @@ const LandingPage = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Popup
-                                    trigger={<Icon name="address card" size="big" className="card-icon" />}
-                                    content='My Portfolio'
-                                    position='top center'
+                                    trigger={
+                                        <Icon
+                                            name="address card"
+                                            size="big"
+                                            className="card-icon"
+                                        />
+                                    }
+                                    content="My Portfolio"
+                                    position="top center"
                                     id="card-popup"
                                 />
                             </a>
@@ -132,9 +186,15 @@ const LandingPage = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Popup
-                                    trigger={<Icon name="linkedin icon" size="big" className="card-icon" />}
-                                    content='My Linkedin'
-                                    position='top center'
+                                    trigger={
+                                        <Icon
+                                            name="linkedin icon"
+                                            size="big"
+                                            className="card-icon"
+                                        />
+                                    }
+                                    content="My Linkedin"
+                                    position="top center"
                                     id="card-popup"
                                 />
                             </a>
@@ -145,9 +205,11 @@ const LandingPage = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Popup
-                                    trigger={<Icon name="github" size="big" className="card-icon" />}
-                                    content='My Github'
-                                    position='top center'
+                                    trigger={
+                                        <Icon name="github" size="big" className="card-icon" />
+                                    }
+                                    content="My Github"
+                                    position="top center"
                                     id="card-popup"
                                 />
                             </a>

@@ -42,7 +42,7 @@
 }
 
 #card-description {
-    font-size: 15px;
+    font-size: 18px;
     color: black;
     line-height: 1.5;
 }
@@ -50,7 +50,7 @@
 .ui.card {
     border: 2px solid black;
     width: auto;
-    height: 950px;
+    height: 1120px;
 }
 
 .ui.header {
@@ -63,7 +63,7 @@
 }
 
 .ui.text.container p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
@@ -73,4 +73,17 @@
 
 #card-popup {
     font-size: 20px;
+}
+
+#tech-list-title {
+    font-family: 'Indie Flower', monospace, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+#tech-list {
+    font-family: 'Indie Flower', monospace, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    list-style-type: none;
 }

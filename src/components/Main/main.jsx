@@ -46,11 +46,16 @@ const Main = () => {
                             currentColor={currentColor}
                             setCurrentColor={setCurrentColor}
                             handleColorChange={handleColorChange}
-                            />
+                        />
                         <div className="colorpalette-footer">
-                            <button onClick={resetCanvas} id="resetbtn">
-                                <i aria-hidden="true" className="undo large icon"></i>
-                            </button>
+                            <Popup
+                                trigger={<button onClick={resetCanvas} id="resetbtn">
+                                    <i aria-hidden="true" className="undo large icon"></i>
+                                </button>}
+                                content='Reset the canvas!'
+                                position='left center'
+                                id="resetbtn-popup"
+                            />
                         </div>
                     </div>
                     <Popup
