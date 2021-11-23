@@ -2,6 +2,7 @@ import React from "react";
 import "./landingpage.css";
 // import image1 from '../../assets/Bobross.png'
 import { Icon } from "semantic-ui-react";
+import { Popup } from "semantic-ui-react";
 
 const LandingPage = () => {
     return (
@@ -54,7 +55,12 @@ const LandingPage = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon name="address card" size="big" className="card-icon" />
+                                <Popup
+                                    trigger={<Icon name="address card" size="big" className="card-icon" />}
+                                    content='My Portfolio'
+                                    position='top center'
+                                    id="card-popup"
+                                />
                             </a>
                             <a
                                 href="https://www.linkedin.com/in/jonvercabraldelacruz/"
@@ -62,7 +68,12 @@ const LandingPage = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon name="linkedin icon" size="big" className="card-icon" />
+                                <Popup
+                                    trigger={<Icon name="linkedin icon" size="big" className="card-icon" />}
+                                    content='My Linkedin'
+                                    position='top center'
+                                    id="card-popup"
+                                />
                             </a>
                             <a
                                 href="https://github.com/nicknamejv"
@@ -70,7 +81,12 @@ const LandingPage = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon name="github" size="big" className="card-icon" />
+                                <Popup
+                                    trigger={<Icon name="github icon" size="big" className="card-icon" />}
+                                    content='My Github'
+                                    position='top center'
+                                    id="card-popup"
+                                />
                             </a>
                         </div>
                     </div>
@@ -102,7 +118,12 @@ const LandingPage = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon name="address card" size="big" className="card-icon" />
+                                <Popup
+                                    trigger={<Icon name="address card" size="big" className="card-icon" />}
+                                    content='My Portfolio'
+                                    position='top center'
+                                    id="card-popup"
+                                />
                             </a>
                             <a
                                 href="https://www.linkedin.com/in/gerald-tiamzon/"
@@ -110,7 +131,12 @@ const LandingPage = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon name="linkedin icon" size="big" className="card-icon" />
+                                <Popup
+                                    trigger={<Icon name="linkedin icon" size="big" className="card-icon" />}
+                                    content='My Linkedin'
+                                    position='top center'
+                                    id="card-popup"
+                                />
                             </a>
                             <a
                                 href="https://github.com/gtiamzon"
@@ -118,7 +144,12 @@ const LandingPage = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Icon name="github" size="big" className="card-icon" />
+                                <Popup
+                                    trigger={<Icon name="github" size="big" className="card-icon" />}
+                                    content='My Github'
+                                    position='top center'
+                                    id="card-popup"
+                                />
                             </a>
                         </div>
                     </div>
