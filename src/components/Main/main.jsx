@@ -27,7 +27,6 @@ const Main = () => {
         setFillColors(Array(999).fill("white"));
     };
 
-    
     const handleColorChange = (e) => {
         setCurrentColor(e.target.value);
     }
