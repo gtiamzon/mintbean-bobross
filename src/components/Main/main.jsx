@@ -30,7 +30,6 @@ const Main = () => {
     
     const handleColorChange = (e) => {
         setCurrentColor(e.target.value);
-        let currentColor = e.target.value;
     }
 
     return (
