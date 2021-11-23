@@ -47,6 +47,7 @@ const Selector = ({ fillColors, onFillColor }) => {
     };
 
     const isSvgChosen = selectedOption;
+    console.log(isSvgChosen)
 
     const renderSvg = () => {
         switch (isSvgChosen.type.name) {
@@ -65,7 +66,7 @@ const Selector = ({ fillColors, onFillColor }) => {
 
     return (
         <>
-            <Select options={svgOptions} onChange={handleSelectChange} id="selector"/>
+            <Select options={svgOptions} onChange={handleSelectChange} id="selector" />
             <div className="svg-image">
                 {renderSvg()}
             </div>

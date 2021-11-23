@@ -20,7 +20,7 @@
 
 .card-icon:hover {
     color: var(--fawn);
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 #card-title {
@@ -60,4 +60,8 @@
 
 #app-context, #app-context h2 {
     font-family: 'Indie Flower', monospace, sans-serif;
+}
+
+#card-popup {
+    font-size: 20px;
 }

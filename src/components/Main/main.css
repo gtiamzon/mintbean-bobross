@@ -33,7 +33,17 @@
 #resetbtn {
     height: 50px;
     width: 50px;
+    border-radius: 50%;
     border: 2px solid black;
+    transition: 0.3s;
+}
+
+#resetbtn:hover {
+    transform: scale(1.3);
+}
+
+#resetbtn-popup {
+    font-size: 18px;
 }
 
 .colorpalette-footer {
@@ -42,6 +52,6 @@
     margin-right: 50px;
 }
 
-#selector {
-
+#popup-bob {
+    font-size: 30px;
 }

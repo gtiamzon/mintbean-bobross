@@ -3,6 +3,7 @@ import "./main.css";
 import ColorPalette from "../ColorPalette/colorpalette";
 import Bobby from "../../assets/Bobross.png";
 import Selector from "../Selector/selector";
+import { Popup } from "semantic-ui-react";
 
 const Main = () => {
     const [fillColors, setFillColors] = useState(
@@ -32,7 +33,7 @@ const Main = () => {
             <div className="ui three column grid">
                 <div className="eleven wide column">
                     <div id="canvasArea">
-                        <Selector fillColors={fillColors} onFillColor={onFillColor} id="selector"/>
+                        <Selector fillColors={fillColors} onFillColor={onFillColor} id="selector" />
                     </div>
                 </div>
                 <div className="five wide column" id="colorpalette-column">
@@ -46,11 +47,21 @@ const Main = () => {
                         handleColorChange={handleColorChange}
                     />
                     <div className="colorpalette-footer">
-                        <button onClick={resetCanvas} id="resetbtn">
-                            <i aria-hidden="true" className="undo large icon"></i>
-                        </button>
+                        <Popup
+                            trigger={<button onClick={resetCanvas} id="resetbtn">
+                                <i aria-hidden="true" className="undo large icon"></i>
+                            </button>}
+                            content='Reset the canvas!'
+                            position='left center'
+                            id="resetbtn-popup"
+                        />
                     </div>
-                    <img className="cornerBob" src={Bobby} alt="bobross" />
+                    <Popup
+                        trigger={<img className="cornerBob" src={Bobby} alt="bobross" />}
+                        content='Hello my name is corner Bob!'
+                        position='top center'
+                        id="popup-bob"
+                    />
                 </div>
             </div>
         </div>
