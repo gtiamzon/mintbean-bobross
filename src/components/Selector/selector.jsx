@@ -68,8 +68,8 @@ const Selector = ({ fillColors, onFillColor }) => {
                 return <Snake fillColors={fillColors} onFillColor={onFillColor} />
             case "Mandala":
                 return <Mandala fillColors={fillColors} onFillColor={onFillColor} />
-            // default:
-            //     return <Mandala fillColors={fillColors} onFillColor={onFillColor} />
+            default:
+                return <Mandala fillColors={fillColors} onFillColor={onFillColor} />
         }
     }
 
