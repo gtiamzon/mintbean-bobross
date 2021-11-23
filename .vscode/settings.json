@@ -4,30 +4,5 @@
         "Bobross",
         "colorpalette",
         "wireframe"
-    ],
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#c190ef",
-        "activityBar.activeBorder": "#fbefe3",
-        "activityBar.background": "#c190ef",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#fbefe3",
-        "activityBarBadge.foreground": "#15202b",
-        "sash.hoverBorder": "#c190ef",
-        "statusBar.background": "#a864e8",
-        "statusBar.border": "#a864e8",
-        "statusBar.debuggingBackground": "#a4e864",
-        "statusBar.debuggingBorder": "#a4e864",
-        "statusBar.debuggingForeground": "#15202b",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#8f38e1",
-        "statusBarItem.remoteBackground": "#a864e8",
-        "statusBarItem.remoteForeground": "#15202b",
-        "tab.activeBorder": "#c190ef",
-        "titleBar.activeBackground": "#a864e8",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.border": "#a864e8",
-        "titleBar.inactiveBackground": "#a864e899",
-        "titleBar.inactiveForeground": "#15202b99"
-    }
+    ]
 }
