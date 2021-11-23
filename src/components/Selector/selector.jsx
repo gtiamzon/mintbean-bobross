@@ -21,26 +21,32 @@ const Selector = ({ fillColors, onFillColor }) => {
     const svgOptions = [
         {
             key: "Robot",
+            value: <Robot />,
             label: "Robot",
         },
         {
             key: "Flower",
+            value: <Flower />,
             label: "Flower",
         },
         {
             key: "Hippo",
+            value: <Hippo />,
             label: "Hippo",
         },
         {
             key: "Snake",
+            value: <Snake />,
             label: "Snake",
         },
         {
             key: "Shorty",
+            value: <Shorty />,
             label: "Beach Short",
         },
         {
             key: "Mandala",
+            value: <Mandala />,
             label: "Mandala",
         }
     ];
