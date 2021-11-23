@@ -5,10 +5,12 @@ import './selector.css';
 
 const Selector = ({ fillColors, onFillColor }) => {
 
+    // this creates the default svg that is pushed onto the page
     const [selectedOption, setSelectedOption] = useState(
         <Robot fillColors={fillColors} onFillColor={onFillColor} />
     );
 
+    // this will check if "selectedOption" state changes
     useEffect(() => {
         console.log("Your option has changed.");
     }, [selectedOption]);
