@@ -36,19 +36,21 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="five wide column" id="colorpalette-column">
-                    <div className="ui huge header" id="colorpalette-title">
-                        COLOR PICKER
-                    </div>
-                    <ColorPalette
-                        id="palette"
-                        currentColor={currentColor}
-                        setCurrentColor={setCurrentColor}
-                        handleColorChange={handleColorChange}
-                    />
-                    <div className="colorpalette-footer">
-                        <button onClick={resetCanvas} id="resetbtn">
-                            <i aria-hidden="true" className="undo large icon"></i>
-                        </button>
+                    <div id="wholePalette">
+                        <div className="ui huge header" id="colorpalette-title">
+                            COLOR PICKER
+                        </div>
+                        <ColorPalette
+                            id="palette"
+                            currentColor={currentColor}
+                            setCurrentColor={setCurrentColor}
+                            handleColorChange={handleColorChange}
+                            />
+                        <div className="colorpalette-footer">
+                            <button onClick={resetCanvas} id="resetbtn">
+                                <i aria-hidden="true" className="undo large icon"></i>
+                            </button>
+                        </div>
                     </div>
                     <img className="cornerBob" src={Bobby} alt="bobross" />
                 </div>
