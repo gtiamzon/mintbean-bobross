@@ -47,7 +47,6 @@ const Selector = ({ fillColors, onFillColor }) => {
     };
 
     const isSvgChosen = selectedOption;
-    console.log(isSvgChosen)
 
     const renderSvg = () => {
         switch (isSvgChosen.type.name) {
