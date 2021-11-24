@@ -65,7 +65,6 @@ const Selector = ({ fillColors, onFillColor }) => {
     };
 
     const svg = isSvgChosen.current.toString();
-    console.log(svg);
 
     const renderSvg = () => {
         switch (isSvgChosen.current) {
