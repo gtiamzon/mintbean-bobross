@@ -1,8 +1,7 @@
 import React from "react";
 import "./landingpage.css";
 // import image1 from '../../assets/Bobross.png'
-import { Icon } from "semantic-ui-react";
-import { Popup } from "semantic-ui-react";
+import { List, Popup, Icon } from "semantic-ui-react";
 
 const LandingPage = () => {
     return (
@@ -31,18 +30,34 @@ const LandingPage = () => {
                             user color in the image with the current active color. Semantic UI
                             was used as a framework. React was what used to to build the
                             application.
-                            
-                            <h1 id="tech-list-title">
-                                Technologies Used:
-                            </h1>
-                            <ul id="tech-list">
-                                <li>Reactjs</li>
-                                <li>Semantic UI React</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ul>
                         </p>
+                            <div id="tech">
+                                <h1 id="tech-list-title">
+                                    Technologies Used:
+                                </h1>
+                                <List id="tech-list">
+                                    <List.Item>
+                                        <List.Icon name='react' size="large" />
+                                        <List.Content>React JS</List.Content>
+                                    </List.Item>
+                                    <List.Item>
+                                        <List.Icon name='css3 alternate' size="large" />
+                                        <List.Content>CSS</List.Content>
+                                    </List.Item>
+                                    <List.Item>
+                                        <List.Icon name='js' size="large" />
+                                        <List.Content>
+                                            JavaScript
+                                        </List.Content>
+                                    </List.Item>
+                                    <List.Item>
+                                        <List.Icon name='book' size="large" />
+                                        <List.Content>
+                                            Semantic UI React
+                                        </List.Content>
+                                    </List.Item>
+                                </List>
+                            </div>
                     </div>
                 </div>
                 <div className="three wide column">
@@ -56,7 +71,7 @@ const LandingPage = () => {
                         </div>
                         <div className="content">
                             <div className="header" id="card-title">
-                                Jon Ver
+                                Jon Ver Dela  Cruz
                             </div>
                             <div className="meta">
                                 <span className="date">Software Developer</span>
@@ -141,7 +156,7 @@ const LandingPage = () => {
                         </div>
                         <div className="content">
                             <div className="header" id="card-title">
-                                Gerald
+                                Gerald Tiamzon
                             </div>
                             <div className="meta">
                                 <span className="date">Software Developer</span>
