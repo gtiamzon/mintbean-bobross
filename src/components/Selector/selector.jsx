@@ -65,7 +65,6 @@ const Selector = ({ fillColors, onFillColor }) => {
     };
 
     const svg = isSvgChosen.current.toString();
-    console.log(svg);
 
     const renderSvg = () => {
         switch (isSvgChosen.current) {
@@ -103,12 +102,13 @@ const Selector = ({ fillColors, onFillColor }) => {
                 <Select
                     options={svgOptions}
                     onChange={handleSelectChange}
+                    placeholder="Select Canvas.."
                     id="selector"
                 />
                 <button className="ui vertical animated button" id="downloadbtn" onClick={downLoadSVG}>
                     <div className="hidden content">Download!</div>
                     <div className="visible content">
-                        <i aria-hidden="true" className="download icon"></i>
+                        <i aria-hidden="true" className="download large icon"></i>
                     </div>
                 </button>
             </div>
