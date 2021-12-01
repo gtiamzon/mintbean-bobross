@@ -15,8 +15,7 @@
     font-size: 20px;
 }
 
-.ui.tabular.menu {
-    height: 65px;
+.ui.stackable.tabular.menu {
     border-bottom: 2px solid black;
     font-family: 'Indie Flower', monospace, sans-serif;
     margin-bottom: 0px;
@@ -29,4 +28,10 @@
 
 #navbar-header img {
     vertical-align: text-bottom;
+}
+
+@media only screen and (min-width: 992px) {
+    .ui.stackable.tabular.menu {
+        height: 65px;
+    }
 }

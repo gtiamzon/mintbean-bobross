@@ -55,3 +55,29 @@
 #popup-bob {
     font-size: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    #mainCanvas {
+        height: 100vh;
+        overflow: scroll !important;
+    }
+
+    #resetbtn {
+        height: 40px;
+        width: 40px;
+    }
+
+    .colorpalette-footer {
+        margin: 35px;
+    }
+
+    .cornerBob {
+        height: 300px;
+        width: auto;
+        bottom: -15vh;
+    }
+
+    #colorpalette-title {
+        font-size: 35px;
+    }
+}

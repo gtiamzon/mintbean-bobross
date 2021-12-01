@@ -33,7 +33,7 @@ const Main = () => {
 
     return (
         <div className="main" id="mainCanvas">
-            <div className="ui three column grid">
+            <div className="ui three column stackable grid">
                 <div className="eleven wide column">
                     <div id="canvasArea">
                         <Selector fillColors={fillColors} onFillColor={onFillColor} id="selector" />

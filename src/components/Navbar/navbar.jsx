@@ -4,7 +4,7 @@ import "./navbar.css";
 const Navbar = () => {
     return (
         <div
-            className="ui tabular menu"
+            className="ui stackable tabular menu"
             style={{ backgroundColor: "hsla(74, 32%, 76%, 1)" }}
         >
             <div className="header item">

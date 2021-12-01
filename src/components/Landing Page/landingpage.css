@@ -93,3 +93,35 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    #app-context p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #app-context h2 {
+        font-size: 25px;
+    }
+
+    #tech-list-title, #tech-list {
+        font-size: 25px;
+    }
+
+    .ui.card {
+        height: fit-content;
+        text-align: center;
+    }
+
+    #card-title {
+        font-size: 38px;
+    }
+
+    .meta span {
+        font-size: 20px;
+    }
+
+    #card-description {
+        font-size: 15px;
+    }
+}

@@ -6,7 +6,7 @@ import { List, Popup, Icon } from "semantic-ui-react";
 const LandingPage = () => {
     return (
         <div className="landing-page">
-            <div className="ui padded three column grid">
+            <div className="ui padded stackable three column grid stackable">
                 <div className="nine wide column">
                     <div className="ui text container" id="app-context">
                         <h2 className="ui header">
